@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Birthday Storybook</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700;900&family=Cinzel:wght@400;600&family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="storybook-container">
+        <!-- Animated Hearts Background -->
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <!-- Screen Overlay with Ribbon -->
+        <div id="screenOverlay" class="screen-overlay">
+            <div class="overlay-content">
+                <div class="overlay-card">
+                    <div class="card-text" id="cardText">
+                        Please take your time and read everything here slowly. I wrote this from my heart — honest, unfiltered, and without any pressure. Read everything by taking time; don’t rush. I’m not asking for an immediate response — only that you understand where I’m coming from. When you’re ready, flip through the pages and let these words reach you gently.
+                    </div>
+                    <a href="#" class="show-more-link" id="showMoreLink">Show more</a>
+                </div>
+                <div class="overlay-text">Please Read Slowly — This Is From My Heart</div>
+                <button class="ribbon-btn" id="ribbonBtn">
+                    <span class="ribbon-text">🎀 Open When You're Ready 🎀</span>
+                </button>
+            </div>
+            <div class="door left-door"></div>
+            <div class="door right-door"></div>
+        </div>
+
+        <!-- Landing Page -->
+        <div class="page active" id="landing">
+            <div class="page-content">
+                <h1 class="main-title">✨ A Letter From My Heart ✨</h1>
+                <div class="subtitle">A small story to tell you how much you mean to me...</div>
+                <div class="landing-hearts">
+                    <div class="floating-heart">💖</div>
+                    <div class="floating-heart">💕</div>
+                    <div class="floating-heart">💗</div>
+                    <!-- Add a beautiful heart-shaped frame with person's photo -->
+                    <div class="main-heart-image">
+                        <div class="heart-frame">
+                            <img src="images/img1.jpg" alt="Special Person" class="person-in-heart">
+                            <div class="heart-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="begin-btn" id="beginBtn">🌟 Begin My Love Story 🌟</button>
+            </div>
+        </div>
+
+        <!-- Story Page 1 -->
+        <div class="page" id="page1">
+            <div class="page-content">
+                <div class="story-image">
+                    <!-- Option 1: Keep emoji -->
+                    🌟
+                    <!-- Option 2: Small heart-shaped person photo -->
+                    
+                    <div class="story-heart-frame">
+                        <img src="images/img2.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">Why I’m Writing This</h2>
+                <p class="story-text">New year ante andaru resolutions gurinchi alochistaru—em marchali, em better avvali ani. Ala think chesthunte, naku oka clarity vachindi.<br><br>
+
+                Idi calendar marindani kaadu. Idi chala rojula nundi na lopala daachukunna oka feeling ni finally, honest ga accept chesina moment. This is completely from my side. Anduke ee words expectations kosam kaadu, adagadanki kaadu, leda past ni marchadaniki kaadu. Just na manasulo chala years nundi undi poyina truth ni peacefull ga eroju cheppalani anipinchindi.<br><br>
+
+                People say new year starts with resolutions. Kani time tho nenu ardham chesukunna oka vishayam enti ante—nuvvu na life lo resolution kaadu. Nuvvu na solution. Idi one-side feeling ayina, adi nannu mature ga alochinchadaniki, silent ga grow avvadaniki, nannu nenu better ga ardham chesukodaniki help chesindi.<br><br>
+
+                Ee words lo pressure ledu, demand ledu. Nenu chala kaalam daachina feeling idi—ippudu honesty tho chepthunna. New year ante fresh start ani antaru kada, idi na fresh start—expectations lekunda, clarity tho, respect tho.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 2 -->
+        <div class="page" id="page2">
+            <div class="page-content">
+                <div class="story-image">
+                    😊
+                    <div class="story-heart-frame">
+                        <img src="images/img3.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">The Moment You Became Special</h2>
+                <p class="story-text">Nijam cheppalante, “moment” ani cheppadaniki oka single second kaadu. It happened slowly, quietly—without me even realizing it.<br><br>
+
+                Around eight years back, Facebook lo friend ga add ayyavu. Appudu adi just oka normal connection la anipinchindi. Messages start ayyai, conversations grew ayyai. Slowly, without effort, without drama—you started feeling familiar. Chala rojulu matladina friend laga kaadu… chala samvatsarala nundi telisinattu ane feeling.<br><br>
+
+                You were doing your doctor course appudu. Aa dedication, aa seriousness, aa clarity—avi naku chala impress chesayi. Oka dream kosam silent ga work chese person ni chusthe automatic ga respect vasthundi. And that respect slowly turned into admiration.<br><br>
+
+                Nee smile gurinchi cheppali ante—adi chala simple ga untundi, kani chala genuine ga anipinchedi. Nee eyes lo oka calm untundi—matladakapoyina kuda chala cheppinattu. Aa small things nannu chala attract chesayi, but more than attraction, naku oka comfort feeling vachindi.<br><br>
+
+                Appude ardham ayindi—you were becoming special to me. Not because of looks alone, not because of conversations alone—but because nee personality, nee commitment on ur work, Nee way of being made a place in my heart without asking permission.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 3 -->
+        <div class="page" id="page3">
+            <div class="page-content">
+                <div class="story-image">
+                    <span class="emoji">💫</span>
+                    <div class="story-heart-frame">
+                        <img src="images/img4.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">What You Mean to Me</h2>
+                <p class="story-text">Nuvvu na life lo entha important ani okka sentence lo cheppadam kashtam. Naku edaina happy ga jarigite, first naku mind lo vachchedi nuvve. Aa happiness ni share cheskovali anipinchedi. Words kaadu, situations kaadu—just neku teliyali ani anipinchedi. Slowly, nenu anni vishayalu neetho share cheskovalani ane stage ki vachanu.<br><br>
+
+                Chala sarlu naku anipinchindi—nenu nee kosam edaina cheyyali ani. Big gestures kosam kaadu, kani small happiness kosam. Nee birthday vachinappudu, adi na birthday laga feel ayyevadini. Endukante aa roju nuvvu happy ga undali ani anukodam naku chala important anipinchedi. Edaina different ga, innovative ga surprise cheyali ani mind motham aa thought tho ne untundi.<br><br>
+
+                Idi obligation kaadu. Idi effort kaadu. Idi natural ga vachina care. Nee smile kosam edaina cheyagalanu ani anipinche feeling. Time tho ardham ayindi—nuvvu just oka person kaadu na life lo. Nuvvu oka meaning ayipoyavu. Naa happiness ki oka direction la, naa emotions ki oka place la.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 4 -->
+        <div class="page" id="page4">
+            <div class="page-content">
+                <div class="story-image">
+                    <span class="emoji">🩺</span>
+                    <div class="story-heart-frame">
+                        <img src="images/img5.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">The Day You Said No</h2>
+                <p class="story-text">Nijam cheppalante, niku adi gurthundho ledo kuda naku telidu. Kani na life lo aa roju na life end ayyedaka marchiponu.<br><br>
+                2018, February 16. Nee birthday roju. <a href="#" id="showMemoryLink">Click here to show how it can be remembered</a><br><br>
+
+                Aa roju nee happiness lo oka part avvali ani anukuni, chala courage techukuni, na feelings cheppanu. Adi oka impulse kaadu, oka sudden decision kaadu—chala rojulu lopala daachukuni unchina feeling adi. Nee response simple ga “no” ani vachindi. Nenu adi respect chesanu. Kani dani tarvatha jarigina silence… block avvadam… anni ways lo sudden ga cut avvadam—adi naku chala unexpected ga anipinchindi.<br><br>
+
+                Kani nenu oka best friend ni, oka connection ni, oka presence ni sudden ga lose ayipoyanu anipinchindi. Aa pain ni words lo cheppadam kashtam. Endukante adi loud ga kaadu—silent ga champesina pain. Nee tho matladadam ledu, Nee updates levu, Nee presence ledu… oka empty space create ayindi. And aa space ni fill cheyyadaniki chala days kashtapadda.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 5 -->
+        <div class="page" id="page5">
+            <div class="page-content">
+                <div class="story-image">
+                    <span class="emoji">🌈</span>
+                    <div class="story-heart-frame">
+                        <img src="images/img6.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">How I’ve Changed Since Then</h2>
+                <p class="story-text">Aa roju tarvatha nenu aagipoledu. Naa feelings ni force cheyyaledu, kani nannu nenu stop chesukoledu kuda. Oka clarity vachindi—life lo mundu settle ayyaka, strong ga ayyaka, appudu matrame naa heart ni malli vinalani.<br><br>
+
+                Anduke nenu struggle ayyanu. Chala upskill ayyanu. Naa career ni serious ga tiskunnanu. Better avvali ani, stable avvali ani, naa life ni oka direction lo petti nadipinchadaniki chala efforts pettanu. God’s grace tho, today nenu oka good position lo unna.<br><br>
+
+                Nijam cheppalante, naaku offer vachina ventane nenu message chesina person nuvve. Endukante aa success ni share cheskovalani first anipinchindi nuvvu. Adi habit kaadu—adi feeling.<br><br>
+
+                Ee journey madhya lo nenu oka pedda loss ni face chesanu. Naa father ni lose ayyanu. Aa roju nundi life chala maripoyindi. Suddenly family responsibility motham naa shoulders meeda padindi. Decisions anni careful ga tiskovali anipinchedi—em cheyyali, ela nadapali ani.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 6 -->
+        <div class="page" id="page6">
+            <div class="page-content">
+                <div class="story-image">
+                    <span class="emoji">💻</span>
+                    <div class="story-heart-frame">
+                        <img src="images/img7.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">My Feelings Today</h2>
+                <p class="story-text">Nijam cheppalante, Mouni, naa feelings change avvale. Time tho maripoyayi ani kaadu—time tho strong ga, stable ga marayi.<br><br>
+
+                Ippudu kuda naa feelings same—loud ga kaadu, immature ga kaadu. Calm ga, deep ga, sincere ga unna feelings.<br><br>
+
+                sister marriage appudu nenu ninnu invite cheseyalani chala anukunnanu. Aa moment lo, face-to-face ga, anni feelings cheppalani anipinchindi. Kani nee response raakapovadam nannu low feel cheyinchindi. because silence hurts more than answers sometimes.<br><br>
+
+                Nenu nee mundu ee feelings malli petti adagatledu. Nenu just oka request chesthunna—appudu reject chesina feelings ni, ippudu oka mature mind tho once consider cheyyamani. Appudu still you are pursuing your degree, You have your goals that I could understand.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 7 -->
+        <div class="page" id="page7">
+            <div class="page-content">
+                <div class="story-image">
+                    <span class="emoji">🌺</span>
+                    <div class="story-heart-frame">
+                        <img src="images/img8.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">Whatever You Choose</h2>
+                <p class="story-text">Mouni, ee words raayadam naa kosam important. Endukante nenu naa feelings ni honest ga cheppalani anukunnanu—result kosam kaadu, clarity kosam.<br><br>
+
+                Ee feelings ni accept cheyyala, reject cheyyala—adi nee decision. Nenu nee meeda pressure pettadaniki ila cheyatledu. Immediate answer kuda naku vaddu. I just wish, ippudu manam oka sari okarini okaru ardham cheskune chance ina ivvu.<br><br>
+
+                Nijam cheppalante, naku ninnu lose ayipotanu emo ani oka bhayam undi. Anduke nenu adigaanu—nee marriage gurinchi. Nuvvu “no” ani cheppinappudu, lopala oka relief vachindi. Adi jealousy kaadu, control kaadu—just hope.<br><br>
+
+                please—oka chance to know each other better. No labels, no pressure, no rush. Just understanding, conversations, time.</p>
+            </div>
+        </div>
+
+        <!-- Story Page 8 -->
+        <div class="page" id="page8">
+            <div class="page-content">
+                <div class="story-image">
+                    🎵
+                    <div class="story-heart-frame">
+                        <img src="images/img10.jpg" alt="Special Person" class="story-person-in-heart">
+                        <div class="story-heart-overlay"></div>
+                    </div>
+                </div>
+                <h2 class="story-title">From Me, With Sincerity</h2>
+                <p class="story-text">Idantha nenu chesindi oka intention tho—honesty. Nenu naa heart lo undi poyina nijanni hide cheyyakunda, exaggeration lekunda, respect tho cheppalani anukunnanu. Direct ga intha clarity ga cheppachu but nuvu ela receive chesukuntavo teliadu anduke ila.<br><br>
+
+                Ee words Nee mida responsibility pettalani kadu. Nee life decisions ni influence cheyyali ani kuda kaadu. Nenu just naa feelings ni oka sari complete ga, sincerely nee mundu pettalani anthe.<br><br>
+
+                Nee response edaina sare—naa respect nee pina eppatiki maradu. Ila express cheyadam valla nenu nannu nenu better ga ardham chesukunnanu. <br><br>
+
+                Hoping that you can understand my feelings mouni. Endukante ee feelings time tho grow ayyai, pain tho mature ayyai, responsibility tho grounded ayyai. No expectations. No pressure. Just truth—from me, with sincerity.</p>
+            </div>
+        </div>
+
+        <!-- Final Birthday Page -->
+        <div class="page birthday-finale" id="finale">
+            <div class="floating-hearts-finale">
+                <div class="finale-heart">💖</div>
+                <div class="finale-heart">💕</div>
+                <div class="finale-heart">💗</div>
+                <div class="finale-heart">💝</div>
+                <div class="finale-heart">💓</div>
+                <div class="finale-heart">💖</div>
+                <div class="finale-heart">💕</div>
+                <div class="finale-heart">💗</div>
+            </div>
+            <div class="page-content">
+                <h1 class="birthday-title">🎊 Happy New Year, Dr. Mouni! 🎊</h1>
+                <!-- Option 2: Large heart-shaped person photo for finale -->
+                <div class="finale-heart-frame">
+                    <img src="images/img7.jpg" alt="Dr. Mouni" class="finale-person-in-heart">
+                    <div class="finale-heart-overlay"></div>
+                </div>
+                <p class="birthday-message"><b>From my heart to yours —</b><br>
+                    Wishing you an inspiring, healthy, and joyful New Year, Dr. Mouni ❤️🥂<br>
+                    May this year bring you success in every dream you pursue, peace in every quiet moment, and endless reasons to smile. Thank you for being who you are. <br>
+                    <b>Happy New Year!</b>
+                </p>
+                <button class="restart-btn" onclick="restartStory()">🔄 Experience This Magic Again 🔄</button>
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="navigation">
+            <button class="nav-btn prev-btn" onclick="prevPage()" id="prevBtn">
+                <span class="arrow">‹</span>
+            </button>
+            <button class="nav-btn next-btn" onclick="nextPage()" id="nextBtn">
+                <span class="arrow">›</span>
+            </button>
+        </div>
+
+        <!-- Audio Control -->
+        <div class="audio-control">
+            <button class="audio-btn" id="audioToggleBtn" onclick="toggleAudio()" title="Toggle Background Music">
+                <span class="audio-icon">🔊</span>
+            </button>
+        </div>
+
+        <!-- Progress Dots -->
+        <div class="progress-dots">
+            <div class="dot active" data-page="landing"></div>
+            <div class="dot" data-page="page1"></div>
+            <div class="dot" data-page="page2"></div>
+            <div class="dot" data-page="page3"></div>
+            <div class="dot" data-page="page4"></div>
+            <div class="dot" data-page="page5"></div>
+            <div class="dot" data-page="page6"></div>
+            <div class="dot" data-page="page7"></div>
+            <div class="dot" data-page="page8"></div>
+            <div class="dot" data-page="finale"></div>
+        </div>
+
+        <!-- Mobile Tap Areas -->
+        <div class="tap-area tap-left" onclick="prevPage()"></div>
+        <div class="tap-area tap-right" onclick="nextPage()"></div>
+        
+        <!-- Background Audio -->
+        <!-- <audio id="backgroundAudio" loop>
+            <source src="hbd.mp3" type="audio/mpeg">
+            <source src="hbd.ogg" type="audio/ogg">
+            <source src="hbd.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio> -->
+
+        <!-- Slide-specific audio (will be controlled via JS) -->
+        <audio id="slideAudio" preload="auto" loop></audio>
+
+        <!-- Modal: memory overlay -->
+        <div id="memoryOverlay" class="memory-overlay" aria-hidden="true">
+            <div class="memory-content">
+                <button id="memoryClose" class="memory-close" aria-label="Close">✕</button>
+                <img id="memoryImage" src="images/img11.jpeg" alt="Memory Image">
+            </div>
+        </div>
+
+        <style>
+        /* Modal overlay styles */
+        .memory-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);align-items:center;justify-content:center;z-index:9999}
+        .memory-overlay.visible{display:flex}
+        .memory-content{position:relative;max-width:90%;max-height:90%;padding:12px;border-radius:10px}
+        .memory-content img{display:block;max-width:100%;max-height:80vh;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+        .memory-close{position:absolute;right:-8px;top:-8px;background:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:18px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.3)}
+        @media (max-width:480px){.memory-content img{max-height:70vh}}
+        </style>
+
+        <script>
+        (function(){
+            const link = document.getElementById('showMemoryLink');
+            const overlay = document.getElementById('memoryOverlay');
+            const closeBtn = document.getElementById('memoryClose');
+            const image = document.getElementById('memoryImage');
+            if(!link || !overlay || !closeBtn) return;
+
+            link.addEventListener('click', function(e){
+                e.preventDefault();
+                // show overlay
+                overlay.classList.add('visible');
+                overlay.setAttribute('aria-hidden','false');
+                // prevent body scroll
+                document.body.style.overflow = 'hidden';
+            });
+
+            function hideOverlay(){
+                overlay.classList.remove('visible');
+                overlay.setAttribute('aria-hidden','true');
+                document.body.style.overflow = ''; // restore
+            }
+
+            closeBtn.addEventListener('click', hideOverlay);
+
+            // click outside image to close
+            overlay.addEventListener('click', function(e){
+                if(e.target === overlay) hideOverlay();
+            });
+
+            // close on ESC
+            document.addEventListener('keydown', function(e){
+                if(e.key === 'Escape' && overlay.classList.contains('visible')) hideOverlay();
+            });
+        })();
+        </script>
+
+        <style>
+        /* Anchor / link styles (themed, accessible) */
+        /* a{color:#ff7aa2;text-decoration:underline;transition:all .18s ease}
+        a:hover{color:#ff5f88;text-decoration:none}
+        a:focus{outline:3px solid rgba(255,122,162,0.18);outline-offset:3px;border-radius:4px} */
+
+        /* Inline story links — subtle pill style */
+        .story-text a{padding:6px 10px;border-radius:8px;text-decoration:none;font-weight:600;}
+        /* .story-text a:hover,.story-text a:focus{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,0.28)} */
+
+        /* Specific style for the memory link to make it stand out */
+        /* #showMemoryLink{background:linear-gradient(90deg,#ff8fb0,#ff5f88);color:#fff}
+        #showMemoryLink:active{transform:translateY(0)} */
+
+        /* Ensure links remain legible on dark overlay */
+        /* .memory-content a{color:#fff} */
+
+        @media (prefers-reduced-motion:reduce){
+            .story-text a,.story-text a:hover{transition:none;transform:none}
+        }
+        </style>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Slide audio manager: automatically plays an audio file from /audios for each page
+        (function(){
+            // track if the user has explicitly paused slide audio via the audio button
+            window.slideAudioUserPaused = window.slideAudioUserPaused || false;
+
+            const pages = Array.from(document.querySelectorAll('.page'));
+            if(!pages.length) return;
+            const audioEl = document.getElementById('slideAudio');
+            // ensure the slide audio loops continuously
+            if(audioEl) audioEl.loop = true;
+            const audFolder = 'audios';
+            // determine number of audio files available by trying aud1...aud9 until not found would be complex,
+            // but you renamed files to aud1..aud7 — we'll assume aud1..aud7 exist and will cycle through them.
+            const audCount = 7;
+
+            // build mapping: pages[i] -> aud{(i % audCount)+1}.mp3
+            const mapping = pages.map((p, i) => `${audFolder}/aud${(i % audCount) + 1}.mp3`);
+
+            function playForActivePage(){
+                const idx = pages.findIndex(p => p.classList.contains('active'));
+                if(idx === -1){ if(audioEl) audioEl.pause(); return; }
+                const src = mapping[idx];
+                if(!src){ if(audioEl) audioEl.pause(); return; }
+
+                // honor explicit user pause — if user has toggled audio off, do not autoplay or change source
+                if(window.slideAudioUserPaused){
+                    if(audioEl) audioEl.pause();
+                    return;
+                }
+
+                // If same source already loaded and paused, play; else set src and play
+                if(!audioEl.src || !audioEl.src.endsWith(src)){
+                    audioEl.pause();
+                    audioEl.src = src;
+                    audioEl.load();
+                }
+                // try to play — may be blocked until user interacts with page
+                const playPromise = audioEl.play();
+                if(playPromise !== undefined){
+                    playPromise.catch(err => {
+                        // Autoplay may be blocked; do nothing. You can instruct user to tap to enable audio.
+                        console.warn('Slide audio play blocked:', err);
+                    });
+                }
+            }
+
+            // observe class changes on pages to detect when 'active' moves
+            const observer = new MutationObserver(function(mutations){
+                for(const m of mutations){
+                    if(m.type === 'attributes' && m.attributeName === 'class'){
+                        // wait a tick for any UI transition then play
+                        setTimeout(playForActivePage, 50);
+                        break;
+                    }
+                }
+            });
+            pages.forEach(p => observer.observe(p, { attributes: true }));
+
+            // also hook navigation buttons and dots if they exist
+            const nextBtn = document.getElementById('nextBtn');
+            const prevBtn = document.getElementById('prevBtn');
+            const dots = Array.from(document.querySelectorAll('.progress-dots .dot'));
+            [nextBtn, prevBtn].forEach(b => { if(b) b.addEventListener('click', () => setTimeout(playForActivePage, 80)); });
+            dots.forEach(d => d.addEventListener('click', () => setTimeout(playForActivePage, 80)));
+
+            // Begin button / ribbon button may change pages — play after click
+            const beginBtn = document.getElementById('beginBtn');
+            const ribbonBtn = document.getElementById('ribbonBtn');
+            [beginBtn, ribbonBtn].forEach(b => { if(b) b.addEventListener('click', () => setTimeout(playForActivePage, 300)); });
+
+            // Stop slide audio when memory overlay opens
+            const memoryOverlay = document.getElementById('memoryOverlay');
+            if(memoryOverlay){
+                const moObserver = new MutationObserver(() => {
+                    if(memoryOverlay.classList.contains('visible')){
+                        if(audioEl) audioEl.pause();
+                    } else {
+                        // resume for current page (unless user paused audio explicitly)
+                        if(!window.slideAudioUserPaused) setTimeout(playForActivePage, 80);
+                    }
+                });
+                moObserver.observe(memoryOverlay, { attributes: true });
+            }
+
+            // initial attempt to play for the currently active page (after user gesture usually)
+            window.addEventListener('load', () => setTimeout(playForActivePage, 300));
+
+            // expose a function for manual control if needed
+            window.playSlideAudioForIndex = function(i){
+                if(i < 0 || i >= pages.length) return; 
+                if(window.slideAudioUserPaused) return; 
+                audioEl.src = mapping[i]; audioEl.play().catch(()=>{});
+            };
+        })();
+        </script>
+</body>
+</html>
